@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.containerContent{
+    width: 100%;
+    height: 700px;
+    
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-image: linear-gradient(#0a1d39, #3874cd);
+}
+
+.bg h3{
+    color: azure;
+    text-decoration: underline;
+}
+.bg {
+    
+    background-color: blue;
+    /* height: 500px; */
+    height: auto;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-image: linear-gradient(#0a1d39, #3874cd);
+    display: flex;
+}
+.formContent {
+    width: 50%;
+    margin: auto;
+    
+}
+
+.formContent a{
+    color: aliceblue;
+}
+span{
+    color: aliceblue;
+}
+
+/* our dashboard css */
+
+ .chatCon {
+    background-color: rgb(115, 149, 177);
+    width: 100%; 
+    height: 700px;
+    /* height: auto; */
+    border: 1px solid black;
+    padding: 10px;
+}
+.chatCon h5 i {
+    padding-right: 5px;
+}
+
+.chatCon h3 i {
+    padding-right: 10px;
+}
+
+
+
+ .mainCon {
+    background-image: linear-gradient(#d2d7e1, #0c326b);
+    width: 100%;
+    height: 700px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.head {
+    color: #123b79;
+}
+
+button.btnn {
+    color: white;
+    background-color: #d92525;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+hr {
+    border: 1px solid #000; 
+    width: 100%;
+}
+
+.mainCon h4 {
+    align-items: start;
+    align-content: start;
+    margin-inline-end: auto;
+}
+
+
+td{
+    padding-left: 100px;
+   
+}
+
+h5 a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+
+h5 a:hover {
+    color: #123b79; 
+}
+
+/* our compose code */
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    height: 150px;
+}
+
+.btn-send {
+    display: block;
+    width: 100%;
+    
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.btn-send:hover {
+    background-color: #0056b3;
+}
+
+.table_head{
+    border-bottom: 1px solid black;
+
+}
+
+/* our hammburger nav css */
+
